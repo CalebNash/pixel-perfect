@@ -1,1 +1,113 @@
+* {
+  font-family: 'Open Sans', sans-serif;
+}
 
+body {
+  background-color: #F5F5F5;
+  width: 100%;
+}
+
+.full-page {
+}
+
+.menu-list {
+  background-color: #FFFFFF;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 69px
+
+
+
+}
+
+.menu-bar a {
+  text-decoration: none;
+  color: #909090;
+}
+
+.menu-bar{
+
+  font-weight: lighter;
+  font-size: 12px;
+  text-transform: uppercase;
+  padding-bottom: 2px;
+  letter-spacing: 0.9px;
+}
+
+.home {
+  padding-left: 143px;
+
+}
+
+.features {
+  padding-left: 41px;
+
+}
+
+.lifestyle {
+  padding-left: 40.1px;
+  letter-spacing: 0.6px;
+}
+
+.travel {
+  padding-left: 25px;
+  letter-spacing: 1px;
+}
+
+.aboutMe {
+  padding-left: 26px;
+  letter-spacing: 1.1px;
+}
+
+.contact {
+  padding-left: 26px;
+  letter-spacing: 1.1px;
+}
+
+.menu-social {
+padding-right: 137px;
+padding-bottom: 4px;
+
+}
+.menu-social-link {
+  color: #AAAAAA;
+}
+.search {
+  font-size: 14px;
+}
+ .menu-social-link.like {
+  padding-right: 35px;
+  font-size: 14px;
+}
+
+.menu-social-link.instagram {
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+.menu-social-link.youtube {
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.menu-social-link.google {
+  padding-right: 5px;
+  font-size: 14px;
+}
+
+.menu-social-link.twitter {
+  padding-right: 5px;
+  font-size: 12px;
+}
+
+.menu-social-link.facebook {
+  padding-right: 8px;
+  font-size: 14px;
+}
+
+.page-content {
+  display: flex;
+  margin: 68px 132px;
+  background-color: ##F4F4F4;
+}
