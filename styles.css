@@ -112,7 +112,6 @@ body {
   margin: 0px;
   padding: 0px 32px 0px 0px;
   display: inline-block;
-  /* background-color: blue; */
   width: 66.9%;
 }
 
@@ -184,7 +183,6 @@ body {
   font-weight: lighter;
 }
 
-
 .footer-social-link {
   color: #AAAAAA;
   font-size: 15px;
@@ -197,7 +195,6 @@ body {
   padding-right: 7px;
   padding-left: 7px;
   margin-right: 48px;
-
 }
 
 .footer-social-link.pinterest {
@@ -241,10 +238,12 @@ body {
   width: 100%;
   margin-bottom: 10.4%;
 }
+
 .biography img {
   width: 100%;
   margin-bottom: -174px;
 }
+
 .biography {
   position: relative;
   text-align: center;
@@ -278,7 +277,7 @@ img.head-shot {
 }
 
 .biography-footer {
-  display:flex;
+  display: flex;
   justify-content: space-between;
   padding-bottom: 35px;
 }
@@ -303,11 +302,13 @@ img.head-shot {
 
 .side-social-link.google {
   padding-right: 5.5px;
-  padding-left: 5.5px;}
+  padding-left: 5.5px;
+}
 
 .side-social-link.twitter {
   padding-right: 7.5px;
-  padding-left: 7.5px;}
+  padding-left: 7.5px;
+}
 
 .side-social-link.facebook {
   padding-right: 11px;
@@ -319,6 +320,7 @@ img.head-shot {
   text-align: center;
   background-color: white;
 }
+
 .popular-posts img {
   width: 100%;
 }
@@ -344,8 +346,8 @@ img.head-shot {
   font-weight: normal;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-
 }
+
 .pp-box2 h3 {
   padding-top: 7px;
   text-align: left;
@@ -353,7 +355,6 @@ img.head-shot {
   font-weight: normal;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-
 }
 
 .pp-box3 h3 {
@@ -363,7 +364,6 @@ img.head-shot {
   font-weight: normal;
   letter-spacing: 0.1px;
   text-transform: uppercase;
-
 }
 
 .pp-box p {
@@ -375,3 +375,193 @@ img.head-shot {
   border-bottom: solid 1px #EEEEEE;
   padding-bottom: 26px;
 }
+
+.pp-box3 {
+  padding-bottom: 4px;
+}
+
+.latest-posts {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 40px;
+}
+
+.lp-box {
+  position: relative;
+  align-items: center;
+  text-align: left;
+  padding-bottom: 8px;
+  padding-left: 31px;
+  padding-right: 31px;
+  border-bottom: 1px solid #EEEEEE;
+  margin-top: 8%;
+  margin-bottom: -4%;
+}
+
+.lp-box1 {
+  margin-top: 25px;
+  margin-bottom:
+}
+
+.lp-box2 {
+  margin-top: 27px;
+}
+
+.lp-box3 {
+  margin-top: 28px;
+}
+
+.lp-box4 {
+  margin-top: 27px;
+}
+
+.lp-image img {
+  display: inline-block;
+  width: 27%;
+  height: 76px;
+}
+
+.lp-content {
+  display: inline;
+  position: absolute;
+  top: -15%;
+  left: 37%;
+}
+
+.latest-posts h2 {
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.lp-content h3 {
+  font-size: 11.5px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.lp-content h3 {
+  padding-top: 2px;
+  padding-left: 7px;
+  line-height: 22px;
+  margin-bottom: 0px;
+}
+
+.lp-content p {
+  margin-top: 8px;
+  padding-left: 7px;
+  color: gray;
+  font-size: 11.5px;
+  font-style: italic;
+}
+
+.lp-box1.lp-content h3 {
+  margin-top: 20px;
+}
+
+.lp-box2.lp-content h3 {
+  padding-left: 5px;
+}
+
+.lp-box3.lp-content h3 {
+  line-height: 10px;
+  padding-left: 5px;
+}
+
+.lp-box4.lp-content h3 {
+  padding-left: 5px;
+}
+
+.pinterest-imgs {
+  text-align: center;
+  /* padding: 5% 5% 9%; */
+  padding-top: 20px;
+  padding-bottom: 35px;
+}
+
+.pinterest-imgs h2 {
+  font-size: 23px;
+  margin: 5.1% 4% 5.7%;
+  ;
+  margin-block-start: none;
+  margin-block-end: none;
+  font-size: 17.5px;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.pinterest-photos {
+  display: inline-flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.pinterest-imgs img {
+  width: 26.2%;
+  margin: 1%;
+  height: 92px;
+}
+
+.footer h4 {
+  color: white;
+  font-weight: lighter;
+  font-size: 14.5px;
+  background-color: black;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+a:hover {
+  color: #6DC0EF;
+}
+
+button:hover {
+  background-color: #6DC0EF;
+  color: white;
+  cursor: pointer;
+}
+
+.hover:hover {
+  -webkit-filter: grayscale(100%);
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .page-content {
+    display: block;
+    justify-content: center;
+    padding: 20px;
+    width: 100vw;
+    margin: 0px;
+  }
+
+  .main {
+    display: inline-block;
+    width: 100%;
+    margin-right: 0%;
+    padding-left: 0px;
+  }
+
+  .side {
+    padding-inline-start: 0px;
+    width: 100%;
+  }
+
+  .hide {
+    position: absolute;
+    visibility: hidden;
+  }
+
+  .home {
+    padding-left: 130px;
+  }
+
+  .aboutMe {
+    padding-left: 15px;
+  }
+
+  .contact {
+    padding-left: 15px;
+  }
